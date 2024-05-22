@@ -23,4 +23,8 @@ public class ExampleInstrumentedTest {
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
         assertEquals("com.example.tp8", appContext.getPackageName());
     }
+    @Test
+    fun addition_isCorrecte(){
+        assertEquals(4 , 2+1);
+    }
 }
