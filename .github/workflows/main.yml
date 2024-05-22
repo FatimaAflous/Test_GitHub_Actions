@@ -26,4 +26,3 @@ jobs:
       run: ./gradlew build
     - name: Run unit tests
       run: ./gradlew :app:testDebugUnitTest
-      run: ./gradlew :app:testDebugUnitTest
