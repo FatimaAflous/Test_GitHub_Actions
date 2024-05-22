@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    String modls[] = {"Algorithmique", "Programmation", "Réseau", "Base de données"};
+    String modls[] = {"Algorithmique", "Programmation", "Réseaux", "Base de données"};
     ListView listv;
 
     @Override
